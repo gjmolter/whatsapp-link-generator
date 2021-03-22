@@ -47,10 +47,10 @@ button {
 
 .container {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-items: center;
+  justify-content: center;
 }
 
 .mainContent {
@@ -90,5 +90,26 @@ button {
   span {
     opacity: 0;
     transition: opacity 200ms ease;
+  }
+}
+
+.amazonMobile {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.amazonDesktop {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .amazonMobile {
+    display: none;
+  }
+  .amazonDesktop {
+    display: block;
+  }
+  .mainContent {
+    margin: 25px 70px;
   }
 }
