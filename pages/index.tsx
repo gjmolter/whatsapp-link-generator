@@ -45,7 +45,7 @@ export default function Home() {
             width="120"
             height="600"
             scrolling="no"
-            style={{ border: "none", margin: 0, border: "none" }}
+            style={{ border: "none", margin: 0 }}
           ></iframe>
         </div>
         <div className="mainContent">
@@ -95,7 +95,7 @@ export default function Home() {
               width="180"
               height="150"
               scrolling="no"
-              style={{ border: "none", margin: 0, border: "none" }}
+              style={{ border: "none", margin: 0 }}
             ></iframe>
           </div>
         </div>
@@ -105,7 +105,7 @@ export default function Home() {
             width="120"
             height="600"
             scrolling="no"
-            style={{ border: "none", margin: 0, border: "none" }}
+            style={{ border: "none", margin: 0 }}
           ></iframe>
         </div>
       </div>
