@@ -2,4 +2,4 @@
 
 This is an useful tool for people who sell products on social media and use WhatsApp as a deal closing platform.
 
-#### You can see this project running [here](whatsapp-message-link-generator.vercel.app)
+#### You can see this project running [here](https://whatsapp-message-link-generator.vercel.app)
