@@ -40,15 +40,6 @@ export default function Home() {
       </Head>
 
       <div className="container">
-        <div className="amazonDesktop">
-          <iframe
-            src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=11&l=ez&f=ifr&linkID=e4b5008e78779fd6d6222e3f606c5dc7&t=ivetravelledw-20&tracking_id=ivetravelledw-20"
-            width="120"
-            height="600"
-            scrolling="no"
-            style={{ border: "none", margin: 0 }}
-          ></iframe>
-        </div>
         <div className="mainContent">
           <h1>WhatsApp Link Generator</h1>
           <label htmlFor="link">
@@ -89,25 +80,6 @@ export default function Home() {
             Copy Link
           </button>
           <span style={{ opacity: msg != "" ? 1 : 0 }}>{msg}</span>
-
-          <div className="amazonMobile">
-            <iframe
-              src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=9&l=ez&f=ifr&linkID=2a830ba594ded132f2242c8c29a7e244&t=ivetravelledw-20&tracking_id=ivetravelledw-20"
-              width="180"
-              height="150"
-              scrolling="no"
-              style={{ border: "none", margin: 0 }}
-            ></iframe>
-          </div>
-        </div>
-        <div className="amazonDesktop">
-          <iframe
-            src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=11&l=ez&f=ifr&linkID=e4b5008e78779fd6d6222e3f606c5dc7&t=ivetravelledw-20&tracking_id=ivetravelledw-20"
-            width="120"
-            height="600"
-            scrolling="no"
-            style={{ border: "none", margin: 0 }}
-          ></iframe>
         </div>
       </div>
     </div>
