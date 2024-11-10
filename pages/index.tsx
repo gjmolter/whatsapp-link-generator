@@ -36,6 +36,7 @@ export default function Home() {
               gtag('js', new Date()); gtag('config', 'G-H2C55SQ6FQ');`,
           }}
         />
+        <script defer data-domain="whatsapp-message-link-generator.vercel.app" src="https://analytics.cpbr.digital/js/script.js"></script>
       </Head>
 
       <div className="container">
